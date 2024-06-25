@@ -9,8 +9,9 @@ import { Tag } from 'src/app/shared/models/tag';
 })
 export class FoodService {
 
-  private apiUrl='http://localhost:3000/foods';
-  private tagsUrl = 'http://localhost:3000/tags'; 
+   private apiUrl = 'https://gayatrikavade.github.io/Angular-FoodOrder-Application/db.json';
+private tagsUrl = 'https://gayatrikavade.github.io/Angular-FoodOrder-Application/db.json';
+
 
   constructor(private http:HttpClient) { }
 
